@@ -10,6 +10,7 @@ import org.springframework.beans.factory.NoSuchBeanDefinitionException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class ApplicationContextBasicFindTest {
+
     AnnotationConfigApplicationContext ac= new AnnotationConfigApplicationContext(AppConfig.class);
 
     @Test
